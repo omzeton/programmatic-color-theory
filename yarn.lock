@@ -128,6 +128,11 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
+culori@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/culori/-/culori-2.0.3.tgz#5b4fd6b48d25db8efcbb96341cc59fedd25d0078"
+  integrity sha512-920cvHdCgdrkmiTgV09/qyGpk3d0RrktiU38bUigBDrNcK/19xRobKBzhSGoBpS9dy03P1OfC8zorQcnZKkK7A==
+
 debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
