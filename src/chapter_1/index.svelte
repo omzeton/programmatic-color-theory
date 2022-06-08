@@ -9,7 +9,7 @@
     }
 
     const createPalettes = (baseColor: BaseColor) => {
-        const targetHueSteps: { [k in Types]: number[] } = {
+        const targetHueSteps: Record<Types, number[]> = {
             analogous: [0, 30, 60],
             triadic: [0, 120, 240],
             tetradic: [0, 90, 180, 270],
@@ -17,7 +17,7 @@
             splitComplementary: [0, 150, 210]
         };
 
-        const palettes: { [k in Types]: BaseColor } = {
+        const palettes: Record<Types, BaseColor> = {
             analogous: { c: 0, l: 0, h: 0, mode: 'lch' },
             complementary: { c: 0, l: 0, h: 0, mode: 'lch' },
             splitComplementary: { c: 0, l: 0, h: 0, mode: 'lch' },
